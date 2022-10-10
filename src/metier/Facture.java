@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Facture
 {	  Client client;
 	 int montantfacture;
-	private LocalDate Date;
+	private LocalDate datefacture;
 	boolean reglementfacture;
 	
 	/**
@@ -16,7 +16,7 @@ public class Facture
 	{
 		
 		this.montantfacture = montantfacture;
-		this.Date = datefacture;
+		this.datefacture = datefacture;
 		this.reglementfacture = reglementfacture;
 	}
 	
