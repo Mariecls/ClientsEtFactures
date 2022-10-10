@@ -3,7 +3,7 @@ package metier;
 import java.time.LocalDate;
 
 public class Facture
-{	private Client client;
+{	private  Client client;
 	private int montant;
 	private LocalDate Date;
 	
@@ -14,7 +14,8 @@ public class Facture
 	
 	public Client getClient()
 	{
-		return null;
+	
+		return client;
 	}
 
 	/**
@@ -24,7 +25,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return 0;
+		return montant;
 	}
 
 	/**
@@ -44,7 +45,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return Date;
 	}
 
 	/**
