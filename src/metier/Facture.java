@@ -34,16 +34,16 @@ public class Facture
 	 */
 	
 	public boolean estReglee()
-	{
-		if (getMontant() == 0)
 		{
-			return true;
-		}
-		else 
-			
-		{
-			return false; 
-		}
+			if (getMontant() == 0)
+			{
+				return true;
+			}
+				else 
+				
+			{
+				return false; 
+			}
 	}
 
 	/**
