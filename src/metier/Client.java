@@ -45,9 +45,13 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		return null;
+		Facture facture = new Facture(montant);
+        add(facture);
+        return facture;
 	}
 	
+
+
 	/**
 	 * Retourne une copie de la liste des factures du client. 
 	 * @return une copie de la liste des factures du client.

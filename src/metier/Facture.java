@@ -54,6 +54,7 @@ public class Facture
 	
 	public void delete()
 	{
+	
 	}
 	
 	/**
@@ -62,7 +63,7 @@ public class Facture
 	 */
 	
 	public Facture copie()
-	{
-		return null;
+	{ 		
+		return null; 
 	}
 }
