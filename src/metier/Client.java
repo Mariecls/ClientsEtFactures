@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Client
-{
+{ private String nomclient;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
 	 */
 	
 	public Client(String nom)
-	{
+	{ this.nomclient= nom;
 	}
 
 	/**
@@ -20,8 +20,8 @@ public class Client
 	 */
 	
 	public String getNom()
-	{
-		return null;
+	{	return this.nomclient;
+		
 	}
 	
 	/**
@@ -30,7 +30,7 @@ public class Client
 	 */
 	
 	public void setNom(String nom)
-	{
+	{  
 	}
 	
 	/**

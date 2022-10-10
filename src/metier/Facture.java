@@ -3,7 +3,10 @@ package metier;
 import java.time.LocalDate;
 
 public class Facture
-{
+{	private Client client;
+	private int montant;
+	private LocalDate date;
+	
 	/**
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
