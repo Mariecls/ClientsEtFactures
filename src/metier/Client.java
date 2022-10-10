@@ -30,8 +30,12 @@ public class Client
 	 */
 	
 	public void setNom(String nom)
-	{  
+	
+	{ 
+		final String facture; 
+		return nom + ":" + facture.toString(); 
 	}
+	
 	
 	/**
 	 * Créé une facture.
