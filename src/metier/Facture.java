@@ -3,14 +3,23 @@ package metier;
 import java.time.LocalDate;
 
 public class Facture
-{	private  Client client;
-	private int montant;
+{	  Client client;
+	 int montantfacture;
 	private LocalDate Date;
+	boolean reglementfacture;
 	
 	/**
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
+	public Facture(String client, int montantfacture, LocalDate datefacture, boolean reglementfacture )
+	{
+		
+		this.montantfacture = montantfacture;
+		this.Date = datefacture;
+		this.reglementfacture = reglementfacture;
+	}
+	
 	
 	public Client getClient()
 	{
