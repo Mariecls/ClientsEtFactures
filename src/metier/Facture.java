@@ -35,7 +35,15 @@ public class Facture
 	
 	public boolean estReglee()
 	{
-		return true;
+		if (getMontant() == 0)
+		{
+			return true;
+		}
+		else 
+			
+		{
+			return false; 
+		}
 	}
 
 	/**
