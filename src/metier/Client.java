@@ -32,7 +32,7 @@ public class Client
 	public void setNom(String nom)
 	
 	{ 
-		
+		this.nomclient= nom; 
 		
 	}
 	
