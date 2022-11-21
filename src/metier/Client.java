@@ -57,7 +57,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return Collections.unmodifiableList(factures);
+		return null;
 	}
 	
 	/**
