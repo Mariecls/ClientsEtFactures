@@ -19,6 +19,12 @@ public class Facture
 		this.datefacture = datefacture;
 		this.reglementfacture = reglementfacture;
 	}
+ public Facture (Client client, int montant)
+ {
+	 this.client = client;
+		this.montant = montant;
+		this.date = LocalDate.now();
+ }
 	
 	
 	public Client getClient()
