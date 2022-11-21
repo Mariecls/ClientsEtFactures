@@ -51,7 +51,15 @@ public class Client
 	}
 	
 
+	void add(Facture commande)
+	{
+		factures.add(commande);
+	}
 
+	void remove(Facture commande)
+	{
+		factures.remove(commande);
+	}
 	/**
 	 * Retourne une copie de la liste des factures du client. 
 	 * @return une copie de la liste des factures du client.
