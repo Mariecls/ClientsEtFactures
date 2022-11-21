@@ -62,6 +62,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
+		return null;
 		
 	}
 
