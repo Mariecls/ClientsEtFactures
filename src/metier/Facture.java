@@ -34,7 +34,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return montant;
+		return null;
 	}
 
 	/**
