@@ -32,7 +32,7 @@ public class Client
 	public void setNom(String nom)
 	
 	{ 
-		
+		this.nomclient= nom; 
 		
 	}
 	
@@ -45,7 +45,9 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		return null;
+
+		Facture facture = new Facture(this, montant);
+		return facture;
 	}
 	
 
