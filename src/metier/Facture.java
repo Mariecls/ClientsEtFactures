@@ -23,7 +23,7 @@ public class Facture
  {
 	 this.client = client;
 		this.montant = montant;
-		this.date = LocalDate.now();
+		
  }
 	
 	
